@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>107出品</title>
+	<link rel="stylesheet" type="text/css" href="css/header.css">
+	<link rel="stylesheet" type="text/css" href="css/foot.css">
+	<link rel="stylesheet" type="text/css" href="css/bannerStyle.css">
+	<link rel="stylesheet" type="text/css" href="css/second_content.css">
+	<link rel="stylesheet" href="css/shutter.css">
+	<script src="jq/jquery.min.js"></script>
+	<script>
+//导航栏
+$(function(){
+
+	
+	var nav_title=$(".nav_title");
+	var nav_title_ol=$(".nav_title ol");
+
+	nav_title.hover(function(){
+		nav_title_ol.stop(false,true);
+		$(this).addClass("current");
+		$(this).find(".nav_content").slideDown("slow");
+	},function(){
+		$(this).removeClass("current");
+		$(this).find(".nav_content").slideUp(200);
+	});
+});
+</script>
+</head>
+<body>
+	<div class="top">
+	<div class="top_pic">
+		<img  src="images/top.png"/>
+	</div>
+	<div class="nav">
+		<div class="nav_header">
+			<ul>
+				<li class="nav_title"><a href="">首页</a></li>
+				<li class="nav_title">
+					<a href="">研究中心概况</a>
+					<ol class="nav_content">
+						<li><a href="">研究中心简介</a></li>
+						<li><a href="">中心章程</a></li>
+						<li><a href="">中心组织机构</a></li>
+						<li><a href="">中心组织机构</a></li>
+						<li><a href="">共建单位权利和义务</a></li>
+						<li><a href="">发展协建单位的管理办法</a></li>
+					</ol>
+				</li>
+				<li class="nav_title">
+					<a href="">研究领域</a>
+					<ol class="nav_content">
+						<li><a href="">装配式钢结构</a></li>
+						<li><a href="">装配式混凝土结构</a></li>
+						<li><a href="">装配式仿古建筑</a></li>
+						<li><a href="">装配式结构的地基基础技术</a></li>
+					</ol>
+				</li>
+				<li class="nav_title">
+					<a href="">科研队伍</a>
+					<ol class="nav_content">
+						<li><a href="">中科院院士</a></li>
+						<li><a href="">特聘教授</a></li>
+						<li><a href="">教授</a></li>
+						<li><a href="">副教授</a></li>
+						<li><a href="">讲师</a></li>
+						<li><a href="">研究生</a></li>
+					</ol>
+				</li>
+				<li class="nav_title">
+					<a href="">科研成果</a>
+					<ol class="nav_content">
+						<li><a href="">科研项目</a></li>
+						<li><a href="">发表论文</a></li>
+						<li><a href="">授权专利</a></li>
+						<li><a href="">科研成果奖</a></li>
+					</ol>
+				</li>
+				<li class="nav_title">
+					<a href="">合作交流</a>
+					<ol class="nav_content">
+						<li><a href="">国际合作</a></li>
+						<li><a href="">社会服务</a></li>
+						<li><a href="">学术交流</a></li>
+					</ol>
+				</li>
+				<li class="nav_title">
+					<a href="">仪器平台</a>
+					<ol class="nav_content">
+						<li><a href="">科研仪器</a></li>
+					</ol>
+				</li>
+				<li class="nav_title">
+					<a href="">英才招聘</a>
+					<ol class="nav_content">
+						<li><a href="">招聘信息</a></li>
+					</ol>
+				</li>
+				<li class="nav_title">
+					<a href="">联系我们</a>
+				</li><li class="nav_title">
+					<a href="">English</a>
+				</li>
+			</ul>
+		</div>
+	</div>	
+</div>
+
+<div class="content">
+	<div class="left">
+	<div class="located">
+		<li>当前所在位置: <a href=""> 科研队伍</a> >> <a href=""> 中科院院士</a></li>
+	</div>
+	<div class="list">
+		<ul>
+			<li><img src="images/list_icon.png"><a href="./content.html">这是一条新闻</a></li>
+			<li><img src="images/list_icon.png"><a href="./content.html">这是一条新闻</a></li>
+			<li><img src="images/list_icon.png"><a href="./content.html">这是一条新闻</a></li>
+			<li><img src="images/list_icon.png"><a href="./content.html">这是一条新闻</a></li>
+			<li><img src="images/list_icon.png"><a href="./content.html">这是一条新闻</a></li>
+			<li><img src="images/list_icon.png"><a href="./content.html">这是一条新闻</a></li>
+			<li><img src="images/list_icon.png"><a href="./content.html">这是一条新闻</a></li>
+			<li><img src="images/list_icon.png"><a href="./content.html">这是一条新闻</a></li>
+			<li><img src="images/list_icon.png"><a href="./content.html">这是一条新闻</a></li>
+			<li><img src="images/list_icon.png"><a href="./content.html">这是一条新闻</a></li>
+			<div class="page">
+			<li class="befor"><a href="" >上一页</a></li>
+			<li class="after"><a href="" >下一页</a></li>
+		</div>
+		</ul>
+		
+	</div>
+</div>
+	<div class="content_nav">
+		<li class="first_nav">科研队伍</li>
+		<ul class="second_nav">
+			<li><a href=""><img src="images/list_tabicon.png">中科院院士</a></li>
+			<li><a href=""><img src="images/list_tabicon.png">特聘教授</a></li>
+			<li><a href=""><img src="images/list_tabicon.png">教授</a></li>
+			<li><a href=""><img src="images/list_tabicon.png">副教授</a></li>
+			<li><a href=""><img src="images/list_tabicon.png">讲师</a></li>
+			<li><a href=""><img src="images/list_tabicon.png">研究生</a></li>
+		</ul>
+	</div>
+</div>
+
+<div class="foot">
+	<div class="foot_content">
+		<div class="foot_info">
+			<ul>
+				<li>Coypright 2019 河南省装配式建筑工程技术研究中心 版权所有 All Rights Reserved 
+</li>
+<li>地 址：中国 开封 河南大学金明校区土木建筑学院16B315室  邮编：475004
+</li>
+			</ul>
+		</div>
+	</div>
+</div>
+</body>
+</html>

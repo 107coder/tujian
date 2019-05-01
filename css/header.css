@@ -1,0 +1,83 @@
+*{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	/* height: 100%; */
+	font-family: 'Arial', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+}
+p{
+	margin:0;
+	padding: 0;
+}
+.body{
+	min-width: 1200px;
+
+}
+.top{
+	/* height: 210px; */
+}
+li{
+	list-style: none;
+	font-size: 20px;
+}
+a{
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+}
+
+.top_pic{
+	height: 210px;
+	width: 100%;
+	min-width: 1500px;
+	text-align:center;
+	height: 100%;
+	/* background-image: url(./image/top.jpg); */
+}
+
+.top_pic img {
+	height: 100%;
+}
+/*导航栏*/
+.nav{
+	width:100%;
+	height: 50px;
+	background-color: #ABCDEF;
+	z-index: 999;
+	text-align: center;
+	text-align-last: center;
+	position: absolute;
+}
+.nav_header{
+	width: 1500px;
+	height: 50px;
+	margin: 0 auto;
+	text-align:center;
+}
+.nav_header ul li{
+	float: left;
+	color: #FFF;
+	line-height: 50px;
+	width: 150px;
+	background-color: #5B9BD5;
+}
+.nav_title{
+	background-color: #ABCDEF;
+	float: left;
+	width: 150px;
+	color: #fff;
+
+}
+.nav ul li:hover{
+	background-color: #ABBBBB;
+}
+.nav_content{
+	display: none;
+	height: 50px;
+	text-align: center;
+}
