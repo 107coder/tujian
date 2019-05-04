@@ -1,7 +1,6 @@
 *{
 	margin: 0;
 	padding: 0;
-	width: 100%;
 	font-family: 'Arial', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
 }
 
@@ -41,6 +40,7 @@ a{
 
 .top_pic img {
 	height: 100%;
+	width: 100%;
 }
 /*导航栏*/
 .nav{

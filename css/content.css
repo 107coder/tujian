@@ -35,7 +35,12 @@
 	font-size: 15px;
 	border: 1px solid #E2DBBE;
 	background:#52C3DD;
-	
+}
+
+.time{
+	float: right;
+	width: 60px;
+	line-height: 40px;
 }
 .list li img{
 	width: 20px;
@@ -68,7 +73,9 @@
 	margin-left: 100px;
 	background:#52C3DD;
 	float: left;
+	
 }
+
 .notice{
 	border: 5px dotted #E2DBBE;
 	width: 450px;
